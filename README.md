@@ -1,4 +1,6 @@
-Airbnb Clone
+## Airbnb Clone
+
+### Tech Stack Used
 
 NextJS, TailwindCSS, TypeScript, Prisma, MongoDB, NextAuth
 
