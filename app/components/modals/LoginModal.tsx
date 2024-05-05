@@ -1,6 +1,5 @@
 "use client";
 
-import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import { useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
@@ -79,7 +78,7 @@ const LoginModal = () => {
       <Button
         outline
         label="Login with Google"
-        onClick={() => {}}
+        onClick={() => signIn("google")}
         icon={FcGoogle}
       />
       <div className="text-neutral-500 text-center mt-4 font-light">

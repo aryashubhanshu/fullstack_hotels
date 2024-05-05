@@ -10,6 +10,7 @@ import Heading from "../Heading";
 import Input from "../inputs/Input";
 import toast from "react-hot-toast";
 import Button from "../Button";
+import { signIn } from "next-auth/react";
 
 const RegisterModal = () => {
   const registerModal = useRegisterModal();
@@ -73,7 +74,7 @@ const RegisterModal = () => {
       <Button
         outline
         label="Login with Google"
-        onClick={() => {}}
+        onClick={() => signIn("google")}
         icon={FcGoogle}
       />
       <div className="text-neutral-500 text-center mt-4 font-light">
