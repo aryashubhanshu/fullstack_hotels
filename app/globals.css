@@ -8,9 +8,9 @@ body,
   height: 100%;
 }
 
-.leafleft-bottom,
-.leafleft-control,
-.leafleft-pane,
-.leafleft-top {
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
   z-index: 0 !important;
 }
