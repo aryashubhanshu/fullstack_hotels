@@ -11,7 +11,7 @@ import RentModal from "./components/modals/RentModal";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Airbnb",
+  title: "Airbnb | Holiday Rentals, cabins, beach houses & more",
   description:
     "Airbnb is a platform that connects people to unique, local accommodations.",
 };
