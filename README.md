@@ -4,4 +4,4 @@
 
 NextJS, TailwindCSS, TypeScript, Prisma, MongoDB, NextAuth
 
-Zustand, Cloudinary CDN, react-hook-form, react-hot-toast, react-date-range, query-string, react-icons, world-countries, leaflet, date-fns
+Zustand, Cloudinary CDN, react-hook-form, react-hot-toast, react-date-range, query-string, react-icons, world-countries, leaflet, date-fns, react-date-range
