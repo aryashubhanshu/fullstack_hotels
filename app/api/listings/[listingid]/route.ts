@@ -25,8 +25,8 @@ export async function DELETE(
 
   const listing = await prisma.listing.deleteMany({
     where: {
-      id: listingId,
-      userId: currentUser.id,
+      id: String(listingId),
+      userId: String(currentUser.id),
     },
   });
 
